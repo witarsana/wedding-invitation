@@ -1,0 +1,7 @@
+@mixin transition-ease($nameTransition,$time){
+    transition: $nameTransition $time ease-in-out;
+}
+
+@mixin transition-ease-in($nameTransition,$time){
+    transition: $nameTransition $time ease-in;
+}
